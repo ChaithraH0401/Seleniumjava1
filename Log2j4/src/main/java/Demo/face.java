@@ -12,7 +12,7 @@ public class face {
 		 driver.get("https://www.facebook.com/r.php?entry_point=login");
 		 driver.findElement(By.name("firstname")).click();
 		 driver.findElement(By.name("lastname")).click();
-		 driver.quit();
+		 driver.close();
 	}
 
 }
